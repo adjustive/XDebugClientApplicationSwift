@@ -77,7 +77,7 @@ void XDebugClientBridge::runServer()
         std::shared_ptr<boost::asio::io_service> io_service = std::shared_ptr<boost::asio::io_service>(new boost::asio::io_service());
         using boost::asio::ip::tcp;
     
-        short port2 = 9001;
+        short port2 = 9000;
         tcp::endpoint endpoint_all   = boost::asio::ip::tcp::endpoint(boost::asio::ip::tcp::v4(),port2);
         //tcp::endpoint endpoint_local = boost::asio::ip::tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"),port2);
         tcp::endpoint* endpoint = &endpoint_all;
@@ -88,7 +88,7 @@ void XDebugClientBridge::runServer()
             this->current_server_reference = io_service;
             this->server_lock.unlock();
             
-            server s(*io_service.get(), std::atoi("9001"),*endpoint);
+            server s(*io_service.get(), std::atoi("9000"),*endpoint);
             //server s(io_service, std::atoi("9000"));
             
             io_service->run();

@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ba730391-dd5a-4487-989c-3deb4276bb7b",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DECCC81617AF0D811D3A274E4FAB865BECC4F359",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "ba730391-dd5a-4487-989c-3deb4276bb7b" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DECCC81617AF0D811D3A274E4FAB865BECC4F359" : 0,
     "ba730391-dd5a-4487-989c-3deb4276bb7b" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EAB986C8-D093-4B3A-9645-63A3E2F55F53",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DECCC81617AF0D811D3A274E4FAB865BECC4F359" : "XDebugClientApplicationSwift\/",
     "ba730391-dd5a-4487-989c-3deb4276bb7b" : "Xcode\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "XDebugClientApplicationSwift",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XDebugClientApplicationSwift\/XDebugClientApplicationSwift.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tomac120\/XDebugClientApplicationSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DECCC81617AF0D811D3A274E4FAB865BECC4F359"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.diarycloud.com\/svn\/Xcode",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
