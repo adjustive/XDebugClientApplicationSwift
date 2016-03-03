@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF63A5FA1C3040CA0022B4DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5F91C3040CA0022B4DA /* AppDelegate.m */; };
+		CF63A5FD1C3040CA0022B4DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5FC1C3040CA0022B4DA /* main.m */; };
+		CF63A5FF1C3040CA0022B4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF63A5FE1C3040CA0022B4DA /* Assets.xcassets */; };
+		CF63A6021C3040CA0022B4DA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF63A6001C3040CA0022B4DA /* MainMenu.xib */; };
+		CF63A60D1C3040CA0022B4DA /* XDebugClientApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63A60C1C3040CA0022B4DA /* XDebugClientApplicationTests.m */; };
+		CF63A6181C3040CA0022B4DA /* XDebugClientApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63A6171C3040CA0022B4DA /* XDebugClientApplicationUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF63A6091C3040CA0022B4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF63A5ED1C3040CA0022B4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF63A5F41C3040CA0022B4DA;
+			remoteInfo = XDebugClientApplication;
+		};
+		CF63A6141C3040CA0022B4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF63A5ED1C3040CA0022B4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF63A5F41C3040CA0022B4DA;
+			remoteInfo = XDebugClientApplication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF63A5F51C3040CA0022B4DA /* XDebugClientApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDebugClientApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A5F81C3040CA0022B4DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF63A5F91C3040CA0022B4DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF63A5FC1C3040CA0022B4DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF63A5FE1C3040CA0022B4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF63A6011C3040CA0022B4DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF63A6031C3040CA0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF63A6081C3040CA0022B4DA /* XDebugClientApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDebugClientApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A60C1C3040CA0022B4DA /* XDebugClientApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDebugClientApplicationTests.m; sourceTree = "<group>"; };
+		CF63A60E1C3040CA0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF63A6131C3040CA0022B4DA /* XDebugClientApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDebugClientApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A6171C3040CA0022B4DA /* XDebugClientApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDebugClientApplicationUITests.m; sourceTree = "<group>"; };
+		CF63A6191C3040CA0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF63A5F21C3040CA0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6051C3040CA0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6101C3040CA0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF63A5EC1C3040CA0022B4DA = {
+			isa = PBXGroup;
+			children = (
+				CF63A5F71C3040CA0022B4DA /* XDebugClientApplication */,
+				CF63A60B1C3040CA0022B4DA /* XDebugClientApplicationTests */,
+				CF63A6161C3040CA0022B4DA /* XDebugClientApplicationUITests */,
+				CF63A5F61C3040CA0022B4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF63A5F61C3040CA0022B4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A5F51C3040CA0022B4DA /* XDebugClientApplication.app */,
+				CF63A6081C3040CA0022B4DA /* XDebugClientApplicationTests.xctest */,
+				CF63A6131C3040CA0022B4DA /* XDebugClientApplicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF63A5F71C3040CA0022B4DA /* XDebugClientApplication */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A5F81C3040CA0022B4DA /* AppDelegate.h */,
+				CF63A5F91C3040CA0022B4DA /* AppDelegate.m */,
+				CF63A5FE1C3040CA0022B4DA /* Assets.xcassets */,
+				CF63A6001C3040CA0022B4DA /* MainMenu.xib */,
+				CF63A6031C3040CA0022B4DA /* Info.plist */,
+				CF63A5FB1C3040CA0022B4DA /* Supporting Files */,
+			);
+			path = XDebugClientApplication;
+			sourceTree = "<group>";
+		};
+		CF63A5FB1C3040CA0022B4DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A5FC1C3040CA0022B4DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF63A60B1C3040CA0022B4DA /* XDebugClientApplicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A60C1C3040CA0022B4DA /* XDebugClientApplicationTests.m */,
+				CF63A60E1C3040CA0022B4DA /* Info.plist */,
+			);
+			path = XDebugClientApplicationTests;
+			sourceTree = "<group>";
+		};
+		CF63A6161C3040CA0022B4DA /* XDebugClientApplicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A6171C3040CA0022B4DA /* XDebugClientApplicationUITests.m */,
+				CF63A6191C3040CA0022B4DA /* Info.plist */,
+			);
+			path = XDebugClientApplicationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF63A5F41C3040CA0022B4DA /* XDebugClientApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A61C1C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplication" */;
+			buildPhases = (
+				CF63A5F11C3040CA0022B4DA /* Sources */,
+				CF63A5F21C3040CA0022B4DA /* Frameworks */,
+				CF63A5F31C3040CA0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDebugClientApplication;
+			productName = XDebugClientApplication;
+			productReference = CF63A5F51C3040CA0022B4DA /* XDebugClientApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF63A6071C3040CA0022B4DA /* XDebugClientApplicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A61F1C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationTests" */;
+			buildPhases = (
+				CF63A6041C3040CA0022B4DA /* Sources */,
+				CF63A6051C3040CA0022B4DA /* Frameworks */,
+				CF63A6061C3040CA0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF63A60A1C3040CA0022B4DA /* PBXTargetDependency */,
+			);
+			name = XDebugClientApplicationTests;
+			productName = XDebugClientApplicationTests;
+			productReference = CF63A6081C3040CA0022B4DA /* XDebugClientApplicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF63A6121C3040CA0022B4DA /* XDebugClientApplicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A6221C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationUITests" */;
+			buildPhases = (
+				CF63A60F1C3040CA0022B4DA /* Sources */,
+				CF63A6101C3040CA0022B4DA /* Frameworks */,
+				CF63A6111C3040CA0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF63A6151C3040CA0022B4DA /* PBXTargetDependency */,
+			);
+			name = XDebugClientApplicationUITests;
+			productName = XDebugClientApplicationUITests;
+			productReference = CF63A6131C3040CA0022B4DA /* XDebugClientApplicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF63A5ED1C3040CA0022B4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = elijah;
+				TargetAttributes = {
+					CF63A5F41C3040CA0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CF63A6071C3040CA0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF63A5F41C3040CA0022B4DA;
+					};
+					CF63A6121C3040CA0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF63A5F41C3040CA0022B4DA;
+					};
+				};
+			};
+			buildConfigurationList = CF63A5F01C3040CA0022B4DA /* Build configuration list for PBXProject "XDebugClientApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF63A5EC1C3040CA0022B4DA;
+			productRefGroup = CF63A5F61C3040CA0022B4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF63A5F41C3040CA0022B4DA /* XDebugClientApplication */,
+				CF63A6071C3040CA0022B4DA /* XDebugClientApplicationTests */,
+				CF63A6121C3040CA0022B4DA /* XDebugClientApplicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF63A5F31C3040CA0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A5FF1C3040CA0022B4DA /* Assets.xcassets in Resources */,
+				CF63A6021C3040CA0022B4DA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6061C3040CA0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6111C3040CA0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF63A5F11C3040CA0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A5FD1C3040CA0022B4DA /* main.m in Sources */,
+				CF63A5FA1C3040CA0022B4DA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6041C3040CA0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A60D1C3040CA0022B4DA /* XDebugClientApplicationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A60F1C3040CA0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A6181C3040CA0022B4DA /* XDebugClientApplicationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF63A60A1C3040CA0022B4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF63A5F41C3040CA0022B4DA /* XDebugClientApplication */;
+			targetProxy = CF63A6091C3040CA0022B4DA /* PBXContainerItemProxy */;
+		};
+		CF63A6151C3040CA0022B4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF63A5F41C3040CA0022B4DA /* XDebugClientApplication */;
+			targetProxy = CF63A6141C3040CA0022B4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF63A6001C3040CA0022B4DA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF63A6011C3040CA0022B4DA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF63A61A1C3040CA0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF63A61B1C3040CA0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF63A61D1C3040CA0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF63A61E1C3040CA0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF63A6201C3040CA0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDebugClientApplication.app/Contents/MacOS/XDebugClientApplication";
+			};
+			name = Debug;
+		};
+		CF63A6211C3040CA0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDebugClientApplication.app/Contents/MacOS/XDebugClientApplication";
+			};
+			name = Release;
+		};
+		CF63A6231C3040CA0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDebugClientApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF63A6241C3040CA0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDebugClientApplication;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF63A5F01C3040CA0022B4DA /* Build configuration list for PBXProject "XDebugClientApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A61A1C3040CA0022B4DA /* Debug */,
+				CF63A61B1C3040CA0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF63A61C1C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A61D1C3040CA0022B4DA /* Debug */,
+				CF63A61E1C3040CA0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF63A61F1C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A6201C3040CA0022B4DA /* Debug */,
+				CF63A6211C3040CA0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF63A6221C3040CA0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A6231C3040CA0022B4DA /* Debug */,
+				CF63A6241C3040CA0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF63A5ED1C3040CA0022B4DA /* Project object */;
+}

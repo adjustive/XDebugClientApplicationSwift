@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF36DFBC1C33460800B2E721 /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFB41C33460800B2E721 /* pugixml.cpp */; };
+		CF36DFCF1C334B6300B2E721 /* XDebugClientDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFCE1C334B6300B2E721 /* XDebugClientDelegate.mm */; };
+		CF36DFD91C334B7100B2E721 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFD11C334B7100B2E721 /* server.cpp */; };
+		CF36DFDA1C334B7100B2E721 /* XDebugClientBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFD21C334B7100B2E721 /* XDebugClientBridge.cpp */; };
+		CF36DFDB1C334B7100B2E721 /* XDebugSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFD41C334B7100B2E721 /* XDebugSocket.cpp */; };
+		CF36DFDC1C334B7100B2E721 /* XDebugSocketBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFD61C334B7100B2E721 /* XDebugSocketBase.cpp */; };
+		CF36DFDD1C334B7100B2E721 /* XMLTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFD81C334B7100B2E721 /* XMLTest.cpp */; };
+		CF36DFE01C334C8C00B2E721 /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF36DFDF1C334C8C00B2E721 /* libboost_system-mt.dylib */; };
+		CF36DFE61C339D2700B2E721 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF36DFE51C339D2600B2E721 /* MainMenu.xib */; };
+		CF36DFE81C3419E200B2E721 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFE71C3419E200B2E721 /* MainWindowController.swift */; };
+		CF36DFEC1C341E0200B2E721 /* WindowTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF36DFEB1C341E0200B2E721 /* WindowTest.xib */; };
+		CF36DFEE1C347A8900B2E721 /* DebuggerCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFED1C347A8900B2E721 /* DebuggerCommand.cpp */; };
+		CF36DFF21C34E7A400B2E721 /* c_utility_functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36DFF01C34E7A400B2E721 /* c_utility_functions.cpp */; };
+		CF36E0011C364A6C00B2E721 /* XDebugSession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0001C364A6C00B2E721 /* XDebugSession.cpp */; };
+		CF36E0041C37345C00B2E721 /* OutputStreamStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0021C37345C00B2E721 /* OutputStreamStorage.cpp */; };
+		CF36E00D1C373EE200B2E721 /* XDebugHistoryItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E00B1C373EE200B2E721 /* XDebugHistoryItem.cpp */; };
+		CF36E0101C38822500B2E721 /* XDebugGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E00E1C38822500B2E721 /* XDebugGlobals.cpp */; };
+		CF36E0131C38EBC900B2E721 /* SourceCode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0111C38EBC900B2E721 /* SourceCode.cpp */; };
+		CF36E0161C3A30F600B2E721 /* Variable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0141C3A30F600B2E721 /* Variable.cpp */; };
+		CF36E01A1C3CF08200B2E721 /* NSViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0191C3CF08200B2E721 /* NSViewExtensions.swift */; };
+		CF36E01E1C3D34F500B2E721 /* VariablesOutlineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36E01D1C3D34F500B2E721 /* VariablesOutlineDataSource.swift */; };
+		CF36E0311C3DCC9800B2E721 /* VariablesOutlineDataSourceV2.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0301C3DCC9800B2E721 /* VariablesOutlineDataSourceV2.m */; };
+		CF36E0351C3DEE4100B2E721 /* VariableCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0341C3DEE4100B2E721 /* VariableCache.mm */; };
+		CF36E04C1C40EE8900B2E721 /* BreakpointState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E04B1C40EE8900B2E721 /* BreakpointState.cpp */; };
+		CF36E04F1C40EEF600B2E721 /* Stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E04D1C40EEF600B2E721 /* Stack.cpp */; };
+		CF36E0521C40F0FE00B2E721 /* StackLineItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0511C40F0FE00B2E721 /* StackLineItem.cpp */; };
+		CF36E0561C40F29E00B2E721 /* StackLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0551C40F29E00B2E721 /* StackLine.m */; };
+		CF36E0591C41F30C00B2E721 /* CustomOutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36E0581C41F30C00B2E721 /* CustomOutlineView.swift */; };
+		CF36E05B1C41F41500B2E721 /* ScrollViewNoAutoScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36E05A1C41F41500B2E721 /* ScrollViewNoAutoScroll.swift */; };
+		CF5A8F871C431A8E00BCB4F2 /* ColoringController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5A8F861C431A8E00BCB4F2 /* ColoringController.m */; };
+		CF5A8F8A1C4327DA00BCB4F2 /* PHP Keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = CF5A8F891C4327DA00BCB4F2 /* PHP Keywords.txt */; };
+		CF5A8FD41C43339700BCB4F2 /* flex.l in Sources */ = {isa = PBXBuildFile; fileRef = CF5A8FD31C43339700BCB4F2 /* flex.l */; };
+		CF5A8FD61C43343A00BCB4F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5A8FD51C43343A00BCB4F2 /* Cocoa.framework */; };
+		CF63A6321C3054AD0022B4DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63A6311C3054AD0022B4DA /* AppDelegate.swift */; };
+		CF63A6341C3054AD0022B4DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF63A6331C3054AD0022B4DA /* Assets.xcassets */; };
+		CF63A6421C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63A6411C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.swift */; };
+		CF63A64D1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF63A64C1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.swift */; };
+		CFE221151C434CB600003AC5 /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE221141C434CB600003AC5 /* CustomTextView.m */; };
+		CFE2211D1C4365B100003AC5 /* MarkerLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE221181C4365B100003AC5 /* MarkerLineNumberView.m */; };
+		CFE2211E1C4365B100003AC5 /* NoodleLineNumberMarker.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE2211A1C4365B100003AC5 /* NoodleLineNumberMarker.m */; };
+		CFE2211F1C4365B100003AC5 /* NoodleLineNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE2211C1C4365B100003AC5 /* NoodleLineNumberView.m */; };
+		CFE221221C4388C600003AC5 /* StackTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE221211C4388C600003AC5 /* StackTableDataSource.m */; };
+		CFE221251C4486F000003AC5 /* StateSharedPointerBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFE221231C4486F000003AC5 /* StateSharedPointerBridge.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF63A63E1C3054AD0022B4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF63A6261C3054AD0022B4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF63A62D1C3054AD0022B4DA;
+			remoteInfo = XDebugClientApplicationSwift;
+		};
+		CF63A6491C3054AD0022B4DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF63A6261C3054AD0022B4DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF63A62D1C3054AD0022B4DA;
+			remoteInfo = XDebugClientApplicationSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF36DFB31C33460800B2E721 /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		CF36DFB41C33460800B2E721 /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		CF36DFB51C33460800B2E721 /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		CF36DFCC1C334B6300B2E721 /* SwiftHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHeaders.h; sourceTree = "<group>"; };
+		CF36DFCD1C334B6300B2E721 /* XDebugClientDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDebugClientDelegate.h; sourceTree = "<group>"; };
+		CF36DFCE1C334B6300B2E721 /* XDebugClientDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XDebugClientDelegate.mm; sourceTree = "<group>"; };
+		CF36DFD11C334B7100B2E721 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		CF36DFD21C334B7100B2E721 /* XDebugClientBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugClientBridge.cpp; sourceTree = "<group>"; };
+		CF36DFD31C334B7100B2E721 /* XDebugClientBridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = XDebugClientBridge.hpp; sourceTree = "<group>"; };
+		CF36DFD41C334B7100B2E721 /* XDebugSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugSocket.cpp; sourceTree = "<group>"; };
+		CF36DFD61C334B7100B2E721 /* XDebugSocketBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugSocketBase.cpp; sourceTree = "<group>"; };
+		CF36DFD71C334B7100B2E721 /* XDebugSocketBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = XDebugSocketBase.hpp; sourceTree = "<group>"; };
+		CF36DFD81C334B7100B2E721 /* XMLTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLTest.cpp; sourceTree = "<group>"; };
+		CF36DFDF1C334C8C00B2E721 /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libboost_system-mt.dylib"; sourceTree = "<group>"; };
+		CF36DFE51C339D2600B2E721 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CF36DFE71C3419E200B2E721 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainWindowController.swift; path = WindowControllers/MainWindowController.swift; sourceTree = "<group>"; };
+		CF36DFEB1C341E0200B2E721 /* WindowTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WindowTest.xib; path = ViewTests/WindowTest.xib; sourceTree = "<group>"; };
+		CF36DFED1C347A8900B2E721 /* DebuggerCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DebuggerCommand.cpp; path = Model/DebuggerCommand.cpp; sourceTree = "<group>"; };
+		CF36DFF01C34E7A400B2E721 /* c_utility_functions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = c_utility_functions.cpp; sourceTree = "<group>"; };
+		CF36DFF11C34E7A400B2E721 /* c_utility_functions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = c_utility_functions.hpp; sourceTree = "<group>"; };
+		CF36DFF91C36367D00B2E721 /* XDebugSession.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = XDebugSession.hpp; sourceTree = "<group>"; };
+		CF36DFFC1C363A8700B2E721 /* XDebugSocket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = XDebugSocket.hpp; sourceTree = "<group>"; };
+		CF36DFFF1C3646E000B2E721 /* DebuggerActions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DebuggerActions.h; sourceTree = "<group>"; };
+		CF36E0001C364A6C00B2E721 /* XDebugSession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugSession.cpp; sourceTree = "<group>"; };
+		CF36E0021C37345C00B2E721 /* OutputStreamStorage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OutputStreamStorage.cpp; path = Model/OutputStreamStorage.cpp; sourceTree = "<group>"; };
+		CF36E0031C37345C00B2E721 /* OutputStreamStorage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = OutputStreamStorage.hpp; path = Model/OutputStreamStorage.hpp; sourceTree = "<group>"; };
+		CF36E00B1C373EE200B2E721 /* XDebugHistoryItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDebugHistoryItem.cpp; path = Model/XDebugHistoryItem.cpp; sourceTree = "<group>"; };
+		CF36E00C1C373EE200B2E721 /* XDebugHistoryItem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = XDebugHistoryItem.hpp; path = Model/XDebugHistoryItem.hpp; sourceTree = "<group>"; };
+		CF36E00E1C38822500B2E721 /* XDebugGlobals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XDebugGlobals.cpp; path = Model/XDebugGlobals.cpp; sourceTree = "<group>"; };
+		CF36E00F1C38822500B2E721 /* XDebugGlobals.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = XDebugGlobals.hpp; path = Model/XDebugGlobals.hpp; sourceTree = "<group>"; };
+		CF36E0111C38EBC900B2E721 /* SourceCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SourceCode.cpp; path = Model/SourceCode.cpp; sourceTree = "<group>"; };
+		CF36E0121C38EBC900B2E721 /* SourceCode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = SourceCode.hpp; path = Model/SourceCode.hpp; sourceTree = "<group>"; };
+		CF36E0141C3A30F600B2E721 /* Variable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Variable.cpp; path = Model/Variable.cpp; sourceTree = "<group>"; };
+		CF36E0151C3A30F600B2E721 /* Variable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Variable.hpp; path = Model/Variable.hpp; sourceTree = "<group>"; };
+		CF36E0191C3CF08200B2E721 /* NSViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSViewExtensions.swift; path = Views/NSViewExtensions.swift; sourceTree = "<group>"; };
+		CF36E01D1C3D34F500B2E721 /* VariablesOutlineDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariablesOutlineDataSource.swift; sourceTree = "<group>"; };
+		CF36E0301C3DCC9800B2E721 /* VariablesOutlineDataSourceV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariablesOutlineDataSourceV2.m; sourceTree = "<group>"; };
+		CF36E0321C3DCCC900B2E721 /* VariablesOutlineDataSourceV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariablesOutlineDataSourceV2.h; sourceTree = "<group>"; };
+		CF36E0331C3DEE3300B2E721 /* VariableCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VariableCache.h; sourceTree = "<group>"; };
+		CF36E0341C3DEE4100B2E721 /* VariableCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VariableCache.mm; sourceTree = "<group>"; };
+		CF36E0491C40936300B2E721 /* XDebugClientApplicationSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = XDebugClientApplicationSwift.entitlements; sourceTree = "<group>"; };
+		CF36E04A1C40EE7500B2E721 /* BreakpointState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = BreakpointState.hpp; path = Model/BreakpointState.hpp; sourceTree = "<group>"; };
+		CF36E04B1C40EE8900B2E721 /* BreakpointState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BreakpointState.cpp; path = Model/BreakpointState.cpp; sourceTree = "<group>"; };
+		CF36E04D1C40EEF600B2E721 /* Stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stack.cpp; path = Model/Stack.cpp; sourceTree = "<group>"; };
+		CF36E04E1C40EEF600B2E721 /* Stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stack.hpp; path = Model/Stack.hpp; sourceTree = "<group>"; };
+		CF36E0501C40EF0900B2E721 /* StackLineItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = StackLineItem.hpp; path = Model/StackLineItem.hpp; sourceTree = "<group>"; };
+		CF36E0511C40F0FE00B2E721 /* StackLineItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = StackLineItem.cpp; path = Model/StackLineItem.cpp; sourceTree = "<group>"; };
+		CF36E0541C40F29E00B2E721 /* StackLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackLine.h; sourceTree = "<group>"; };
+		CF36E0551C40F29E00B2E721 /* StackLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackLine.m; sourceTree = "<group>"; };
+		CF36E0581C41F30C00B2E721 /* CustomOutlineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomOutlineView.swift; path = Views/CustomOutlineView.swift; sourceTree = "<group>"; };
+		CF36E05A1C41F41500B2E721 /* ScrollViewNoAutoScroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScrollViewNoAutoScroll.swift; path = Views/ScrollViewNoAutoScroll.swift; sourceTree = "<group>"; };
+		CF5A8F851C431A8300BCB4F2 /* ColoringController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoringController.h; sourceTree = "<group>"; };
+		CF5A8F861C431A8E00BCB4F2 /* ColoringController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoringController.m; sourceTree = "<group>"; };
+		CF5A8F881C4327D300BCB4F2 /* flextokens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flextokens.h; sourceTree = "<group>"; };
+		CF5A8F891C4327DA00BCB4F2 /* PHP Keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PHP Keywords.txt"; sourceTree = "<group>"; };
+		CF5A8FD31C43339700BCB4F2 /* flex.l */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.lex; path = flex.l; sourceTree = "<group>"; };
+		CF5A8FD51C43343A00BCB4F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF63A62E1C3054AD0022B4DA /* XDebugClientApplicationSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDebugClientApplicationSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A6311C3054AD0022B4DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF63A6331C3054AD0022B4DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF63A6381C3054AD0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF63A63D1C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDebugClientApplicationSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A6411C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDebugClientApplicationSwiftTests.swift; sourceTree = "<group>"; };
+		CF63A6431C3054AD0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF63A6481C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDebugClientApplicationSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A64C1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDebugClientApplicationSwiftUITests.swift; sourceTree = "<group>"; };
+		CF63A64E1C3054AD0022B4DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE221131C434CB600003AC5 /* CustomTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextView.h; path = Views/CustomTextView.h; sourceTree = "<group>"; };
+		CFE221141C434CB600003AC5 /* CustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextView.m; path = Views/CustomTextView.m; sourceTree = "<group>"; };
+		CFE221171C4365B100003AC5 /* MarkerLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkerLineNumberView.h; sourceTree = "<group>"; };
+		CFE221181C4365B100003AC5 /* MarkerLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkerLineNumberView.m; sourceTree = "<group>"; };
+		CFE221191C4365B100003AC5 /* NoodleLineNumberMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberMarker.h; sourceTree = "<group>"; };
+		CFE2211A1C4365B100003AC5 /* NoodleLineNumberMarker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberMarker.m; sourceTree = "<group>"; };
+		CFE2211B1C4365B100003AC5 /* NoodleLineNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoodleLineNumberView.h; sourceTree = "<group>"; };
+		CFE2211C1C4365B100003AC5 /* NoodleLineNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoodleLineNumberView.m; sourceTree = "<group>"; };
+		CFE221201C4388C600003AC5 /* StackTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackTableDataSource.h; sourceTree = "<group>"; };
+		CFE221211C4388C600003AC5 /* StackTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackTableDataSource.m; sourceTree = "<group>"; };
+		CFE221231C4486F000003AC5 /* StateSharedPointerBridge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StateSharedPointerBridge.cpp; sourceTree = "<group>"; };
+		CFE221241C4486F000003AC5 /* StateSharedPointerBridge.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = StateSharedPointerBridge.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF63A62B1C3054AD0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5A8FD61C43343A00BCB4F2 /* Cocoa.framework in Frameworks */,
+				CF36DFE01C334C8C00B2E721 /* libboost_system-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A63A1C3054AD0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6451C3054AD0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF36DFB21C33460800B2E721 /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DFB31C33460800B2E721 /* pugiconfig.hpp */,
+				CF36DFB41C33460800B2E721 /* pugixml.cpp */,
+				CF36DFB51C33460800B2E721 /* pugixml.hpp */,
+			);
+			path = pugixml;
+			sourceTree = "<group>";
+		};
+		CF36DFC11C33467600B2E721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DFDF1C334C8C00B2E721 /* libboost_system-mt.dylib */,
+				CF36DFB21C33460800B2E721 /* pugixml */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF36DFCB1C334B6300B2E721 /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DFCC1C334B6300B2E721 /* SwiftHeaders.h */,
+				CF36DFCD1C334B6300B2E721 /* XDebugClientDelegate.h */,
+				CF36DFCE1C334B6300B2E721 /* XDebugClientDelegate.mm */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		CF36DFD01C334B7100B2E721 /* XDebugClient */ = {
+			isa = PBXGroup;
+			children = (
+				CF36DFEF1C347A8D00B2E721 /* Model */,
+				CF36DFF01C34E7A400B2E721 /* c_utility_functions.cpp */,
+				CF36DFF11C34E7A400B2E721 /* c_utility_functions.hpp */,
+				CF36DFFF1C3646E000B2E721 /* DebuggerActions.h */,
+				CF36DFD11C334B7100B2E721 /* server.cpp */,
+				CFE221231C4486F000003AC5 /* StateSharedPointerBridge.cpp */,
+				CFE221241C4486F000003AC5 /* StateSharedPointerBridge.hpp */,
+				CF36DFD21C334B7100B2E721 /* XDebugClientBridge.cpp */,
+				CF36DFD31C334B7100B2E721 /* XDebugClientBridge.hpp */,
+				CF36E0001C364A6C00B2E721 /* XDebugSession.cpp */,
+				CF36DFF91C36367D00B2E721 /* XDebugSession.hpp */,
+				CF36DFD41C334B7100B2E721 /* XDebugSocket.cpp */,
+				CF36DFFC1C363A8700B2E721 /* XDebugSocket.hpp */,
+				CF36DFD61C334B7100B2E721 /* XDebugSocketBase.cpp */,
+				CF36DFD71C334B7100B2E721 /* XDebugSocketBase.hpp */,
+				CF36DFD81C334B7100B2E721 /* XMLTest.cpp */,
+			);
+			path = XDebugClient;
+			sourceTree = "<group>";
+		};
+		CF36DFDE1C334B7900B2E721 /* ViewDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				CF36E01D1C3D34F500B2E721 /* VariablesOutlineDataSource.swift */,
+				CF36E0321C3DCCC900B2E721 /* VariablesOutlineDataSourceV2.h */,
+				CF36E0301C3DCC9800B2E721 /* VariablesOutlineDataSourceV2.m */,
+				CF36E0331C3DEE3300B2E721 /* VariableCache.h */,
+				CF36E0341C3DEE4100B2E721 /* VariableCache.mm */,
+				CF36E0541C40F29E00B2E721 /* StackLine.h */,
+				CF36E0551C40F29E00B2E721 /* StackLine.m */,
+				CFE221201C4388C600003AC5 /* StackTableDataSource.h */,
+				CFE221211C4388C600003AC5 /* StackTableDataSource.m */,
+			);
+			path = ViewDelegates;
+			sourceTree = "<group>";
+		};
+		CF36DFE11C3354C800B2E721 /* XDebugSessionData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XDebugSessionData;
+			sourceTree = "<group>";
+		};
+		CF36DFEF1C347A8D00B2E721 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF36E04B1C40EE8900B2E721 /* BreakpointState.cpp */,
+				CF36E04A1C40EE7500B2E721 /* BreakpointState.hpp */,
+				CF36DFED1C347A8900B2E721 /* DebuggerCommand.cpp */,
+				CF36E0021C37345C00B2E721 /* OutputStreamStorage.cpp */,
+				CF36E0031C37345C00B2E721 /* OutputStreamStorage.hpp */,
+				CF36E0111C38EBC900B2E721 /* SourceCode.cpp */,
+				CF36E0121C38EBC900B2E721 /* SourceCode.hpp */,
+				CF36E04D1C40EEF600B2E721 /* Stack.cpp */,
+				CF36E04E1C40EEF600B2E721 /* Stack.hpp */,
+				CF36E0511C40F0FE00B2E721 /* StackLineItem.cpp */,
+				CF36E0501C40EF0900B2E721 /* StackLineItem.hpp */,
+				CF36E0141C3A30F600B2E721 /* Variable.cpp */,
+				CF36E0151C3A30F600B2E721 /* Variable.hpp */,
+				CF36E00E1C38822500B2E721 /* XDebugGlobals.cpp */,
+				CF36E00F1C38822500B2E721 /* XDebugGlobals.hpp */,
+				CF36E00B1C373EE200B2E721 /* XDebugHistoryItem.cpp */,
+				CF36E00C1C373EE200B2E721 /* XDebugHistoryItem.hpp */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CF36E0571C41F2D700B2E721 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF36E0581C41F30C00B2E721 /* CustomOutlineView.swift */,
+				CF36E05A1C41F41500B2E721 /* ScrollViewNoAutoScroll.swift */,
+				CF5A8F8B1C4327DD00BCB4F2 /* SyntaxHighlighting */,
+				CFE221161C43659300003AC5 /* TextViewLineNumbers */,
+				CFE221131C434CB600003AC5 /* CustomTextView.h */,
+				CFE221141C434CB600003AC5 /* CustomTextView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CF5A8F8B1C4327DD00BCB4F2 /* SyntaxHighlighting */ = {
+			isa = PBXGroup;
+			children = (
+				CF5A8F851C431A8300BCB4F2 /* ColoringController.h */,
+				CF5A8F861C431A8E00BCB4F2 /* ColoringController.m */,
+				CF5A8F881C4327D300BCB4F2 /* flextokens.h */,
+				CF5A8FD31C43339700BCB4F2 /* flex.l */,
+				CF5A8F891C4327DA00BCB4F2 /* PHP Keywords.txt */,
+			);
+			name = SyntaxHighlighting;
+			sourceTree = "<group>";
+		};
+		CF63A6251C3054AD0022B4DA = {
+			isa = PBXGroup;
+			children = (
+				CF5A8FD51C43343A00BCB4F2 /* Cocoa.framework */,
+				CF63A6301C3054AD0022B4DA /* XDebugClientApplicationSwift */,
+				CF63A6401C3054AD0022B4DA /* XDebugClientApplicationSwiftTests */,
+				CF63A64B1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests */,
+				CF63A62F1C3054AD0022B4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF63A62F1C3054AD0022B4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A62E1C3054AD0022B4DA /* XDebugClientApplicationSwift.app */,
+				CF63A63D1C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.xctest */,
+				CF63A6481C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF63A6301C3054AD0022B4DA /* XDebugClientApplicationSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CF36E0491C40936300B2E721 /* XDebugClientApplicationSwift.entitlements */,
+				CF63A6311C3054AD0022B4DA /* AppDelegate.swift */,
+				CF36DFE71C3419E200B2E721 /* MainWindowController.swift */,
+				CF36DFCB1C334B6300B2E721 /* Bridge */,
+				CF36DFD01C334B7100B2E721 /* XDebugClient */,
+				CF36DFE11C3354C800B2E721 /* XDebugSessionData */,
+				CF36DFDE1C334B7900B2E721 /* ViewDelegates */,
+				CF36E0571C41F2D700B2E721 /* Views */,
+				CF36DFC11C33467600B2E721 /* Frameworks */,
+				CF63A6331C3054AD0022B4DA /* Assets.xcassets */,
+				CF36DFE51C339D2600B2E721 /* MainMenu.xib */,
+				CF63A6381C3054AD0022B4DA /* Info.plist */,
+				CF36DFEB1C341E0200B2E721 /* WindowTest.xib */,
+				CF36E0191C3CF08200B2E721 /* NSViewExtensions.swift */,
+			);
+			path = XDebugClientApplicationSwift;
+			sourceTree = "<group>";
+		};
+		CF63A6401C3054AD0022B4DA /* XDebugClientApplicationSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A6411C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.swift */,
+				CF63A6431C3054AD0022B4DA /* Info.plist */,
+			);
+			path = XDebugClientApplicationSwiftTests;
+			sourceTree = "<group>";
+		};
+		CF63A64B1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A64C1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.swift */,
+				CF63A64E1C3054AD0022B4DA /* Info.plist */,
+			);
+			path = XDebugClientApplicationSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CFE221161C43659300003AC5 /* TextViewLineNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				CFE221171C4365B100003AC5 /* MarkerLineNumberView.h */,
+				CFE221181C4365B100003AC5 /* MarkerLineNumberView.m */,
+				CFE221191C4365B100003AC5 /* NoodleLineNumberMarker.h */,
+				CFE2211A1C4365B100003AC5 /* NoodleLineNumberMarker.m */,
+				CFE2211B1C4365B100003AC5 /* NoodleLineNumberView.h */,
+				CFE2211C1C4365B100003AC5 /* NoodleLineNumberView.m */,
+			);
+			name = TextViewLineNumbers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF63A62D1C3054AD0022B4DA /* XDebugClientApplicationSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A6511C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwift" */;
+			buildPhases = (
+				CF63A62A1C3054AD0022B4DA /* Sources */,
+				CF63A62B1C3054AD0022B4DA /* Frameworks */,
+				CF63A62C1C3054AD0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDebugClientApplicationSwift;
+			productName = XDebugClientApplicationSwift;
+			productReference = CF63A62E1C3054AD0022B4DA /* XDebugClientApplicationSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF63A63C1C3054AD0022B4DA /* XDebugClientApplicationSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A6541C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwiftTests" */;
+			buildPhases = (
+				CF63A6391C3054AD0022B4DA /* Sources */,
+				CF63A63A1C3054AD0022B4DA /* Frameworks */,
+				CF63A63B1C3054AD0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF63A63F1C3054AD0022B4DA /* PBXTargetDependency */,
+			);
+			name = XDebugClientApplicationSwiftTests;
+			productName = XDebugClientApplicationSwiftTests;
+			productReference = CF63A63D1C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF63A6471C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A6571C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwiftUITests" */;
+			buildPhases = (
+				CF63A6441C3054AD0022B4DA /* Sources */,
+				CF63A6451C3054AD0022B4DA /* Frameworks */,
+				CF63A6461C3054AD0022B4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF63A64A1C3054AD0022B4DA /* PBXTargetDependency */,
+			);
+			name = XDebugClientApplicationSwiftUITests;
+			productName = XDebugClientApplicationSwiftUITests;
+			productReference = CF63A6481C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF63A6261C3054AD0022B4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = elijah;
+				TargetAttributes = {
+					CF63A62D1C3054AD0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					CF63A63C1C3054AD0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF63A62D1C3054AD0022B4DA;
+					};
+					CF63A6471C3054AD0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CF63A62D1C3054AD0022B4DA;
+					};
+				};
+			};
+			buildConfigurationList = CF63A6291C3054AD0022B4DA /* Build configuration list for PBXProject "XDebugClientApplicationSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF63A6251C3054AD0022B4DA;
+			productRefGroup = CF63A62F1C3054AD0022B4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF63A62D1C3054AD0022B4DA /* XDebugClientApplicationSwift */,
+				CF63A63C1C3054AD0022B4DA /* XDebugClientApplicationSwiftTests */,
+				CF63A6471C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF63A62C1C3054AD0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A6341C3054AD0022B4DA /* Assets.xcassets in Resources */,
+				CF36DFEC1C341E0200B2E721 /* WindowTest.xib in Resources */,
+				CF5A8F8A1C4327DA00BCB4F2 /* PHP Keywords.txt in Resources */,
+				CF36DFE61C339D2700B2E721 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A63B1C3054AD0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6461C3054AD0022B4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF63A62A1C3054AD0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE221151C434CB600003AC5 /* CustomTextView.m in Sources */,
+				CF36DFBC1C33460800B2E721 /* pugixml.cpp in Sources */,
+				CF36DFDA1C334B7100B2E721 /* XDebugClientBridge.cpp in Sources */,
+				CF36E0041C37345C00B2E721 /* OutputStreamStorage.cpp in Sources */,
+				CFE2211F1C4365B100003AC5 /* NoodleLineNumberView.m in Sources */,
+				CF36DFDC1C334B7100B2E721 /* XDebugSocketBase.cpp in Sources */,
+				CF36E04C1C40EE8900B2E721 /* BreakpointState.cpp in Sources */,
+				CF36E04F1C40EEF600B2E721 /* Stack.cpp in Sources */,
+				CF36E0311C3DCC9800B2E721 /* VariablesOutlineDataSourceV2.m in Sources */,
+				CF36E0521C40F0FE00B2E721 /* StackLineItem.cpp in Sources */,
+				CF36E01E1C3D34F500B2E721 /* VariablesOutlineDataSource.swift in Sources */,
+				CF36E0101C38822500B2E721 /* XDebugGlobals.cpp in Sources */,
+				CF36E0591C41F30C00B2E721 /* CustomOutlineView.swift in Sources */,
+				CF36E01A1C3CF08200B2E721 /* NSViewExtensions.swift in Sources */,
+				CFE2211E1C4365B100003AC5 /* NoodleLineNumberMarker.m in Sources */,
+				CF36E0561C40F29E00B2E721 /* StackLine.m in Sources */,
+				CFE221251C4486F000003AC5 /* StateSharedPointerBridge.cpp in Sources */,
+				CF36DFCF1C334B6300B2E721 /* XDebugClientDelegate.mm in Sources */,
+				CF5A8FD41C43339700BCB4F2 /* flex.l in Sources */,
+				CF36E00D1C373EE200B2E721 /* XDebugHistoryItem.cpp in Sources */,
+				CF36DFDB1C334B7100B2E721 /* XDebugSocket.cpp in Sources */,
+				CF36E0161C3A30F600B2E721 /* Variable.cpp in Sources */,
+				CF36DFDD1C334B7100B2E721 /* XMLTest.cpp in Sources */,
+				CF36DFF21C34E7A400B2E721 /* c_utility_functions.cpp in Sources */,
+				CF36DFD91C334B7100B2E721 /* server.cpp in Sources */,
+				CF63A6321C3054AD0022B4DA /* AppDelegate.swift in Sources */,
+				CF36DFEE1C347A8900B2E721 /* DebuggerCommand.cpp in Sources */,
+				CF36E0011C364A6C00B2E721 /* XDebugSession.cpp in Sources */,
+				CF36E0131C38EBC900B2E721 /* SourceCode.cpp in Sources */,
+				CF36DFE81C3419E200B2E721 /* MainWindowController.swift in Sources */,
+				CF36E05B1C41F41500B2E721 /* ScrollViewNoAutoScroll.swift in Sources */,
+				CF36E0351C3DEE4100B2E721 /* VariableCache.mm in Sources */,
+				CFE221221C4388C600003AC5 /* StackTableDataSource.m in Sources */,
+				CF5A8F871C431A8E00BCB4F2 /* ColoringController.m in Sources */,
+				CFE2211D1C4365B100003AC5 /* MarkerLineNumberView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6391C3054AD0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A6421C3054AD0022B4DA /* XDebugClientApplicationSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63A6441C3054AD0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A64D1C3054AD0022B4DA /* XDebugClientApplicationSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF63A63F1C3054AD0022B4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF63A62D1C3054AD0022B4DA /* XDebugClientApplicationSwift */;
+			targetProxy = CF63A63E1C3054AD0022B4DA /* PBXContainerItemProxy */;
+		};
+		CF63A64A1C3054AD0022B4DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF63A62D1C3054AD0022B4DA /* XDebugClientApplicationSwift */;
+			targetProxy = CF63A6491C3054AD0022B4DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF63A64F1C3054AD0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF63A6501C3054AD0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF63A6521C3054AD0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = XDebugClientApplicationSwift/XDebugClientApplicationSwift.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+				INFOPLIST_FILE = XDebugClientApplicationSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/XDebugClientApplicationSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = XDebugClientApplicationSwift/Bridge/SwiftHeaders.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USER_HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+			};
+			name = Debug;
+		};
+		CF63A6531C3054AD0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = XDebugClientApplicationSwift/XDebugClientApplicationSwift.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+				INFOPLIST_FILE = XDebugClientApplicationSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/XDebugClientApplicationSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = XDebugClientApplicationSwift/Bridge/SwiftHeaders.h;
+				USER_HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+			};
+			name = Release;
+		};
+		CF63A6551C3054AD0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDebugClientApplicationSwift.app/Contents/MacOS/XDebugClientApplicationSwift";
+			};
+			name = Debug;
+		};
+		CF63A6561C3054AD0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDebugClientApplicationSwift.app/Contents/MacOS/XDebugClientApplicationSwift";
+			};
+			name = Release;
+		};
+		CF63A6581C3054AD0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDebugClientApplicationSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF63A6591C3054AD0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = XDebugClientApplicationSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elijah.XDebugClientApplicationSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDebugClientApplicationSwift;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF63A6291C3054AD0022B4DA /* Build configuration list for PBXProject "XDebugClientApplicationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A64F1C3054AD0022B4DA /* Debug */,
+				CF63A6501C3054AD0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF63A6511C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A6521C3054AD0022B4DA /* Debug */,
+				CF63A6531C3054AD0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF63A6541C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A6551C3054AD0022B4DA /* Debug */,
+				CF63A6561C3054AD0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF63A6571C3054AD0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientApplicationSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A6581C3054AD0022B4DA /* Debug */,
+				CF63A6591C3054AD0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF63A6261C3054AD0022B4DA /* Project object */;
+}

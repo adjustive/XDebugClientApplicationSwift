@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ba730391-dd5a-4487-989c-3deb4276bb7b",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "ba730391-dd5a-4487-989c-3deb4276bb7b" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ba730391-dd5a-4487-989c-3deb4276bb7b" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "91890E6A-CBFF-4F04-A3E6-1733D11E8C48",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ba730391-dd5a-4487-989c-3deb4276bb7b" : "Xcode\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XDebugClientCLI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XDebugClientCLI\/XDebugClientCLI.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.diarycloud.com\/svn\/Xcode",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ba730391-dd5a-4487-989c-3deb4276bb7b"
+    }
+  ]
+}

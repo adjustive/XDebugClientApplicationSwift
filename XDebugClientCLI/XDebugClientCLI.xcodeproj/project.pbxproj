@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF63A59E1C2C997B0022B4DA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A59D1C2C997B0022B4DA /* main.cpp */; };
+		CF63A5A51C2C9A290022B4DA /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5A41C2C9A290022B4DA /* server.cpp */; };
+		CF63A5A71C2CA0380022B4DA /* libboost_system-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF63A5A61C2CA0380022B4DA /* libboost_system-mt.dylib */; };
+		CF63A5AA1C2D68A20022B4DA /* XDebugSession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5A81C2D68A20022B4DA /* XDebugSession.cpp */; };
+		CF63A5AC1C2D696F0022B4DA /* XDebugSessionBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5AB1C2D696F0022B4DA /* XDebugSessionBase.cpp */; };
+		CF63A5B31C2E1C6D0022B4DA /* XMLTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5B21C2E1C6D0022B4DA /* XMLTest.cpp */; };
+		CF63A5B41C2E1E2A0022B4DA /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CF63A5B01C2DE21C0022B4DA /* pugixml.cpp */; };
+		CF63A8071C30D25D0022B4DA /* WordList.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A7FB1C30D25D0022B4DA /* WordList.cxx */; };
+		CF63A8081C30D25D0022B4DA /* LexHTML.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A8061C30D25D0022B4DA /* LexHTML.cxx */; };
+		CF63A80D1C30D3A90022B4DA /* Accessor.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A8091C30D3A90022B4DA /* Accessor.cxx */; };
+		CF63A80E1C30D3A90022B4DA /* StyleContext.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A80A1C30D3A90022B4DA /* StyleContext.cxx */; };
+		CF63A80F1C30D3A90022B4DA /* CharacterSet.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A80B1C30D3A90022B4DA /* CharacterSet.cxx */; };
+		CF63A8101C30D3A90022B4DA /* LexerModule.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A80C1C30D3A90022B4DA /* LexerModule.cxx */; };
+		CF63A8131C30D3E10022B4DA /* PropSetSimple.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A8121C30D3E10022B4DA /* PropSetSimple.cxx */; };
+		CF63A8161C30D40E0022B4DA /* LexerBase.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A8151C30D40E0022B4DA /* LexerBase.cxx */; };
+		CF63A8191C30D46D0022B4DA /* LexerSimple.cxx in Sources */ = {isa = PBXBuildFile; fileRef = CF63A8181C30D46D0022B4DA /* LexerSimple.cxx */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF63A5981C2C997B0022B4DA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF63A59A1C2C997B0022B4DA /* XDebugClientCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XDebugClientCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF63A59D1C2C997B0022B4DA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CF63A5A41C2C9A290022B4DA /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
+		CF63A5A61C2CA0380022B4DA /* libboost_system-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = "libboost_system-mt.dylib"; sourceTree = "<group>"; };
+		CF63A5A81C2D68A20022B4DA /* XDebugSession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugSession.cpp; sourceTree = "<group>"; };
+		CF63A5A91C2D68A20022B4DA /* XDebugSession.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = XDebugSession.hpp; sourceTree = "<group>"; };
+		CF63A5AB1C2D696F0022B4DA /* XDebugSessionBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XDebugSessionBase.cpp; sourceTree = "<group>"; };
+		CF63A5AD1C2D6C830022B4DA /* XDebugSessionBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = XDebugSessionBase.hpp; sourceTree = "<group>"; };
+		CF63A5AF1C2DE21C0022B4DA /* pugiconfig.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugiconfig.hpp; sourceTree = "<group>"; };
+		CF63A5B01C2DE21C0022B4DA /* pugixml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pugixml.cpp; sourceTree = "<group>"; };
+		CF63A5B11C2DE21C0022B4DA /* pugixml.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pugixml.hpp; sourceTree = "<group>"; };
+		CF63A5B21C2E1C6D0022B4DA /* XMLTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = XMLTest.cpp; sourceTree = "<group>"; };
+		CF63A7FA1C30D25D0022B4DA /* Scintilla.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scintilla.h; sourceTree = "<group>"; };
+		CF63A7FB1C30D25D0022B4DA /* WordList.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordList.cxx; sourceTree = "<group>"; };
+		CF63A7FC1C30D25D0022B4DA /* LexerModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexerModule.h; sourceTree = "<group>"; };
+		CF63A7FD1C30D25D0022B4DA /* CharacterSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterSet.h; sourceTree = "<group>"; };
+		CF63A7FE1C30D25D0022B4DA /* StyleContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleContext.h; sourceTree = "<group>"; };
+		CF63A7FF1C30D25D0022B4DA /* Accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Accessor.h; sourceTree = "<group>"; };
+		CF63A8001C30D25D0022B4DA /* LexAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexAccessor.h; sourceTree = "<group>"; };
+		CF63A8011C30D25D0022B4DA /* WordList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordList.h; sourceTree = "<group>"; };
+		CF63A8021C30D25D0022B4DA /* StringCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringCopy.h; sourceTree = "<group>"; };
+		CF63A8031C30D25D0022B4DA /* SciLexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SciLexer.h; sourceTree = "<group>"; };
+		CF63A8041C30D25D0022B4DA /* Sci_Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sci_Position.h; sourceTree = "<group>"; };
+		CF63A8051C30D25D0022B4DA /* ILexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILexer.h; sourceTree = "<group>"; };
+		CF63A8061C30D25D0022B4DA /* LexHTML.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LexHTML.cxx; sourceTree = "<group>"; };
+		CF63A8091C30D3A90022B4DA /* Accessor.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Accessor.cxx; sourceTree = "<group>"; };
+		CF63A80A1C30D3A90022B4DA /* StyleContext.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StyleContext.cxx; sourceTree = "<group>"; };
+		CF63A80B1C30D3A90022B4DA /* CharacterSet.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterSet.cxx; sourceTree = "<group>"; };
+		CF63A80C1C30D3A90022B4DA /* LexerModule.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LexerModule.cxx; sourceTree = "<group>"; };
+		CF63A8111C30D3E10022B4DA /* PropSetSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropSetSimple.h; sourceTree = "<group>"; };
+		CF63A8121C30D3E10022B4DA /* PropSetSimple.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PropSetSimple.cxx; sourceTree = "<group>"; };
+		CF63A8141C30D40E0022B4DA /* LexerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexerBase.h; sourceTree = "<group>"; };
+		CF63A8151C30D40E0022B4DA /* LexerBase.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LexerBase.cxx; sourceTree = "<group>"; };
+		CF63A8171C30D46D0022B4DA /* LexerSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LexerSimple.h; sourceTree = "<group>"; };
+		CF63A8181C30D46D0022B4DA /* LexerSimple.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LexerSimple.cxx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF63A5971C2C997B0022B4DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A5A71C2CA0380022B4DA /* libboost_system-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF63A5911C2C997B0022B4DA = {
+			isa = PBXGroup;
+			children = (
+				CF63A59C1C2C997B0022B4DA /* XDebugClientCLI */,
+				CF63A59B1C2C997B0022B4DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF63A59B1C2C997B0022B4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A59A1C2C997B0022B4DA /* XDebugClientCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF63A59C1C2C997B0022B4DA /* XDebugClientCLI */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A65A1C30CE5D0022B4DA /* parser */,
+				CF63A5AE1C2DE21C0022B4DA /* pugixml */,
+				CF63A5A61C2CA0380022B4DA /* libboost_system-mt.dylib */,
+				CF63A59D1C2C997B0022B4DA /* main.cpp */,
+				CF63A5A41C2C9A290022B4DA /* server.cpp */,
+				CF63A5A81C2D68A20022B4DA /* XDebugSession.cpp */,
+				CF63A5A91C2D68A20022B4DA /* XDebugSession.hpp */,
+				CF63A5AB1C2D696F0022B4DA /* XDebugSessionBase.cpp */,
+				CF63A5AD1C2D6C830022B4DA /* XDebugSessionBase.hpp */,
+				CF63A5B21C2E1C6D0022B4DA /* XMLTest.cpp */,
+			);
+			path = XDebugClientCLI;
+			sourceTree = "<group>";
+		};
+		CF63A5AE1C2DE21C0022B4DA /* pugixml */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A5AF1C2DE21C0022B4DA /* pugiconfig.hpp */,
+				CF63A5B01C2DE21C0022B4DA /* pugixml.cpp */,
+				CF63A5B11C2DE21C0022B4DA /* pugixml.hpp */,
+			);
+			path = pugixml;
+			sourceTree = "<group>";
+		};
+		CF63A65A1C30CE5D0022B4DA /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				CF63A8061C30D25D0022B4DA /* LexHTML.cxx */,
+				CF63A7FA1C30D25D0022B4DA /* Scintilla.h */,
+				CF63A7FC1C30D25D0022B4DA /* LexerModule.h */,
+				CF63A7FD1C30D25D0022B4DA /* CharacterSet.h */,
+				CF63A7FE1C30D25D0022B4DA /* StyleContext.h */,
+				CF63A8001C30D25D0022B4DA /* LexAccessor.h */,
+				CF63A8011C30D25D0022B4DA /* WordList.h */,
+				CF63A8021C30D25D0022B4DA /* StringCopy.h */,
+				CF63A8031C30D25D0022B4DA /* SciLexer.h */,
+				CF63A8041C30D25D0022B4DA /* Sci_Position.h */,
+				CF63A8051C30D25D0022B4DA /* ILexer.h */,
+				CF63A8141C30D40E0022B4DA /* LexerBase.h */,
+				CF63A8171C30D46D0022B4DA /* LexerSimple.h */,
+				CF63A7FF1C30D25D0022B4DA /* Accessor.h */,
+				CF63A8091C30D3A90022B4DA /* Accessor.cxx */,
+				CF63A80A1C30D3A90022B4DA /* StyleContext.cxx */,
+				CF63A80B1C30D3A90022B4DA /* CharacterSet.cxx */,
+				CF63A80C1C30D3A90022B4DA /* LexerModule.cxx */,
+				CF63A8111C30D3E10022B4DA /* PropSetSimple.h */,
+				CF63A8121C30D3E10022B4DA /* PropSetSimple.cxx */,
+				CF63A7FB1C30D25D0022B4DA /* WordList.cxx */,
+				CF63A8151C30D40E0022B4DA /* LexerBase.cxx */,
+				CF63A8181C30D46D0022B4DA /* LexerSimple.cxx */,
+			);
+			name = parser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF63A5991C2C997B0022B4DA /* XDebugClientCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF63A5A11C2C997B0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientCLI" */;
+			buildPhases = (
+				CF63A5961C2C997B0022B4DA /* Sources */,
+				CF63A5971C2C997B0022B4DA /* Frameworks */,
+				CF63A5981C2C997B0022B4DA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDebugClientCLI;
+			productName = XDebugClientCLI;
+			productReference = CF63A59A1C2C997B0022B4DA /* XDebugClientCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF63A5921C2C997B0022B4DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = elijah;
+				TargetAttributes = {
+					CF63A5991C2C997B0022B4DA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CF63A5951C2C997B0022B4DA /* Build configuration list for PBXProject "XDebugClientCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF63A5911C2C997B0022B4DA;
+			productRefGroup = CF63A59B1C2C997B0022B4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF63A5991C2C997B0022B4DA /* XDebugClientCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF63A5961C2C997B0022B4DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63A8071C30D25D0022B4DA /* WordList.cxx in Sources */,
+				CF63A5B41C2E1E2A0022B4DA /* pugixml.cpp in Sources */,
+				CF63A8101C30D3A90022B4DA /* LexerModule.cxx in Sources */,
+				CF63A8081C30D25D0022B4DA /* LexHTML.cxx in Sources */,
+				CF63A5B31C2E1C6D0022B4DA /* XMLTest.cpp in Sources */,
+				CF63A8131C30D3E10022B4DA /* PropSetSimple.cxx in Sources */,
+				CF63A5AC1C2D696F0022B4DA /* XDebugSessionBase.cpp in Sources */,
+				CF63A80D1C30D3A90022B4DA /* Accessor.cxx in Sources */,
+				CF63A5AA1C2D68A20022B4DA /* XDebugSession.cpp in Sources */,
+				CF63A80E1C30D3A90022B4DA /* StyleContext.cxx in Sources */,
+				CF63A5A51C2C9A290022B4DA /* server.cpp in Sources */,
+				CF63A80F1C30D3A90022B4DA /* CharacterSet.cxx in Sources */,
+				CF63A8191C30D46D0022B4DA /* LexerSimple.cxx in Sources */,
+				CF63A59E1C2C997B0022B4DA /* main.cpp in Sources */,
+				CF63A8161C30D40E0022B4DA /* LexerBase.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF63A59F1C2C997B0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF63A5A01C2C997B0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF63A5A21C2C997B0022B4DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XDebugClientCLI",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF63A5A31C2C997B0022B4DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = "~/Downloads/boost_1_60_0";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XDebugClientCLI",
+				);
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF63A5951C2C997B0022B4DA /* Build configuration list for PBXProject "XDebugClientCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A59F1C2C997B0022B4DA /* Debug */,
+				CF63A5A01C2C997B0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF63A5A11C2C997B0022B4DA /* Build configuration list for PBXNativeTarget "XDebugClientCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF63A5A21C2C997B0022B4DA /* Debug */,
+				CF63A5A31C2C997B0022B4DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF63A5921C2C997B0022B4DA /* Project object */;
+}
